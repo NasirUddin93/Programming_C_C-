@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+class Complexno{
+    int real, imag;
+    public:
+    Complexno(){
+        real = 0;
+        imag = 0;
+    }
+    Complexno(int r){
+        real = r;
+        imag = 0;
+    }
+    Complexno(int r,int i){
+        real = r;
+        imag = i;
+    }
+    void add(Complexno c1, Complexno c2){
+        real = c1.real + c2.real;
+        imag = c1.imag + c2.imag;
+    }
+    void display(){
+        cout<<real<<"+"<<imag<<"i"<<endl;
+    }
+};
+int main(){
+   Complexno c1(3,3);
+   Complexno c2(3,8);
+   Complexno c3;
+   c3.add(c1,c2);
+   c3.display();
+
+}
