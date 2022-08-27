@@ -5,6 +5,4 @@ int main(){
     month m;
     m=July;
     cout<<m;
-
-
 }

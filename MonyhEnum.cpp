@@ -21,9 +21,11 @@ int number;
 //    maserNam= February;
 //    maserNam= March;
 //    maserNam= April;
-    cout<<sizeof(num1)<<endl;
-    cout<<sizeof(number)<<endl;
+//    cout<<sizeof(num1)<<endl;
+//    cout<<sizeof(number)<<endl;
 //    cout<<sizeof(maserNam)<<endl;
 //    cout<<maserNam;
+cout<<February;
+cout<<March;
 
 }
